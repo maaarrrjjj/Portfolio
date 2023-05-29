@@ -1,0 +1,119 @@
+
+html, body {
+    overflow-x: hidden;
+    background-image: linear-gradient(#cf9893, #119DA4);
+
+}
+.text{
+    margin-left: 7%;
+    margin-top: 5%;
+}
+
+.text h1{
+    font-size: 40px;
+    color: rgb(104, 104, 104);
+}
+.text span2{
+    color: rgb(41, 183, 215);
+    font-size: 75px;
+    font-weight: 1000;
+}
+.text span1{
+    color: rgb(41, 183, 215);
+    font-size: 75px;
+    font-weight: 1000;
+}
+
+
+
+.h1, .h2, .h3, .h4, .h5, .h6{
+    color: rgb(20, 7, 7);
+    font-weight: 700;
+}
+.navbar {
+    background-color: rgba(248, 245, 243, 0.84);
+}
+.navbar .nav-link {
+    font-size: 17px;
+    font-weight: 700;
+    font-family: arial;
+    color: rgb(10, 10, 11);
+}
+.navbar .nav-link:hover {
+    color: rgb(252, 252, 252);
+}
+.navbar .nav-link.active {
+    color: rgb(5, 6, 5);
+}
+.navbar-toggler{
+    color: rgb(227, 224, 224);
+}
+.navbar-toggler-icon {
+    color: rgb(204, 204, 204);
+    padding-top: 15%;
+    font-size: 23px;
+}
+.section {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    border-bottom: 2px solid rgb(110, 110, 110);
+}
+.card-title, .card-text {
+    color: black;
+}
+.card-body {
+    background-color: rgb(6, 6, 6);
+    box-shadow: 0 20 20 black;
+}
+.card {
+    width: 18rem;
+}
+.card:hover {
+    transform: scale(1.1);
+    transition: .4s;
+}
+.shadow-effect {
+    transition: all 0.5s;
+}
+.shadow-effect:hover {
+    box-shadow: 0 0 0 5px rgb(175, 174, 174);
+}
+.bg-color {
+    background-color: rgb(44, 40, 40);
+}
+.roundedd {
+    border-radius: 2%;
+}
+.d-block {
+    width: 100%;
+}
+.carousel-caption {
+    top: 10%;
+}
+/*SURVEY*/
+.card-header{
+    background-image: linear-gradient(#cf9893, #119DA4);
+}
+
+
+.social-icons{
+    font-size: 20px;
+    cursor: pointer;
+    color: #000800;
+    margin-bottom: 15px;    
+    transition: 0.4s;
+    margin-left: 3px;
+    margin-right: 5px;
+}
+.bg-secondary{
+
+    background-image: url(../images/ko.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+
+
+
+
