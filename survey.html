@@ -1,0 +1,458 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  
+</head>
+
+<body>
+  <div class="container-fluid px-0">
+    <div class="mx-0 mx-sm-auto">
+      <div class="card1">
+        <div class="card-header bg-danger">
+          <nav class="navbar navbar-expand-lg fixed-top text-uppercase">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                  <i class="fa-solid fa-bars"></i>
+                </span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto text-center">
+                  <li class="nav-item"><a class="nav-link " href="#"><i class="fa-solid fa-house"></i>Home</a>
+                  </li>
+                  <li class="nav-item"><a class="nav-link" href="periodic.html"><i class="fa-solid fa-book"></i>Activity
+                      1</a></li>
+                  <li class="nav-item"><a class="nav-link" href="practice.html"><i class="fa-solid fa-book"></i>Activity
+                      3</a></li>
+                  <li class="nav-item"><a class="nav-link " href="index.html"><i class="fa-sharp fa-solid fa-rotate-left"></i>Back</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <h5 class="card-title text-white mt-2 text-center">Blood Donation</h5>
+        </div>
+        <div class="modal-body">
+          <div class="text-center">
+            <i class="fa-solid fa-dumbbell fa-4x mb-3 text-success"></i>
+            <p class="query">Blood Donation Form</p>
+            <p>Please fill the form.</strong></p>
+          </div>
+          <hr />
+          <form class="px-1">
+            <p class="query">Name:</p>
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="First name">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Last name">
+              </div>
+            </div>
+          </form>
+          <form class="px-1">
+            <p class="query">Address:</p>
+            <div class="row">
+              <div class="col pb-3">
+                <input type="text" class="form-control" placeholder="Street Address">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col pb-3">
+                <input type="text" class="form-control" placeholder="Municipality">
+              </div>
+              <div class="col pb-3">
+                <input type="text" class="form-control" placeholder="City">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Region">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Postal/Zip Code">
+              </div>
+            </div>
+          </form>
+          <form class="px-1" action="">
+
+            <p class="query">Gender:</p>
+            <div class="form-check mb-1 form-check-inline">
+              <input class="form-check-input" type="radio" name="Gender" id="gender1" />
+              <label class="form-check-label" for="gender1">
+                Male
+              </label>
+            </div>
+            <div class="form-check mb-1 form-check-inline">
+              <input class="form-check-input" type="radio" name="Gender" id="gender2" />
+              <label class="form-check-label" for="gender2">
+                Female
+              </label><br>
+            </div>
+          </form>
+          <form class="px-1" action="">
+
+            <p class="query">HOW OLD ARE YOU?</p>
+            <div class="form-check mb-1">
+              <input class="form-check-input" type="radio" name="Old" id="old" />
+              <label class="form-check-label" for="old">Under 16</label>
+            </div>
+            <div class="form-check mb-1">
+              <input class="form-check-input" type="radio" name="Old" id="old" />
+              <label class="form-check-label" for="old">16 - 14</label><br>
+            </div>
+            <div class="form-check mb-1">
+              <input class="form-check-input" type="radio" name="Old" id="old" />
+              <label class="form-check-label" for="old">25 - 40</label><br>
+            </div>
+            <div class="form-check mb-1">
+              <input class="form-check-input" type="radio" name="Old" id="old" />
+              <label class="form-check-label" for="old">60+</label><br>
+            </div>
+          </form>
+          <form class="px-1" action="">
+            <p class="query">WHAT IS YOUR BLOOD TYPE?</p>
+
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Health" id="health1" />
+              <label class="form-check-label" for="health1">
+                A-
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Health" id="health2" />
+              <label class="form-check-label" for="health2">
+                A+
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Health" id="health3" />
+              <label class="form-check-label" for="health3">
+                AB-
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Health" id="health3" />
+              <label class="form-check-label" for="health3">
+                B-
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Health" id="health3" />
+              <label class="form-check-label" for="health3">
+                B+
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Health" id="health3" />
+              <label class="form-check-label" for="health3">
+                O-
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Health" id="health3" />
+              <label class="form-check-label" for="health3">
+                ?(DON'T KNOW)
+              </label>
+            </div>
+          </form>
+          <form class="px-1" action="">
+            <p class="query">HAVE YOU EVER GIVEN BLOOD?</p>
+          
+          <div class="form-check mb-2">
+            <input class="form-check-input" type="radio" name="Health" id="health1" />
+            <label class="form-check-label" for="health1">
+              YES
+            </label>
+          </div>
+          <div class="form-check mb-2">
+            <input class="form-check-input" type="radio" name="Health" id="health1" />
+            <label class="form-check-label" for="health1">
+              NO
+            </label>
+          </form>
+
+          </div>
+          <form class="px-1" action="">
+            <p class="query">IF YES, HOW OFTEN DO/DID YOU GIVE BLOOD?</p>
+          
+          <div class="form-check mb-2">
+            <input class="form-check-input" type="radio" name="Health" id="health1" />
+            <label class="form-check-label" for="health1">
+              More than once a year
+            </label>
+          </div>
+          <div class="form-check mb-2">
+            <input class="form-check-input" type="radio" name="Health" id="health1" />
+            <label class="form-check-label" for="health1">
+              Once a year
+            </label>
+          </div>
+          <div class="form-check mb-2">
+            <input class="form-check-input" type="radio" name="Health" id="health1" />
+            <label class="form-check-label" for="health1">
+              Every two or three years
+            </label>
+          </div>
+          <div class="form-check mb-2">
+            <input class="form-check-input" type="radio" name="Health" id="health1" />
+            <label class="form-check-label" for="health1">
+              Less often
+            </label>
+          </div>
+          </form>
+          <form class="px-1" action="">
+            <p class="query">WHY DO/DID YOU CHOOSE TO GIVE BLOOD?</p>
+
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" id="supplement1" />
+              <label class="form-check-label" for="supplement1">
+                I want to help others in need / save lives
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" id="supplement2" />
+              <label class="form-check-label" for="supplement2">
+                Myself or a family member has experienced a time when they needed blood so I want to give something back
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" id="supplement3" />
+              <label class="form-check-label" for="supplement3">
+                I have a rare blood type which is in low supply
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" id="supplement4" />
+              <label class="form-check-label" for="supplement4">
+                My friends/family donate and encouraged me to also give blood
+              </label>
+            </div>
+            <div class="row">
+              <div class="col-lg-3 ">
+                <input type="text" class="form-control" placeholder="Other">
+              </div>
+          </form>
+
+          <form class="px-1" action="">
+            <p class="query">IF NO, IS THERE ANY SPECIFIC REASON WHY NOT?</p>
+          
+          <form class="px-1" action="">
+            <p class="query"></p>
+
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" id="gym1" />
+              <label class="form-check-label" for="gym1">
+                I'm scared of needles
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" id="gym2" />
+              <label class="form-check-label" for="gym2">
+                I am too busy
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" id="gym3" />
+              <label class="form-check-label" for="gym3">
+                It's a hassle to arrange time and place to donate
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" id="gym4" />
+              <label class="form-check-label" for="gym4">
+                I'm not allowed to give blood for medical reasons
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" id="gym5" />
+              <label class="form-check-label" for="gym5">
+                I'm worried I will faint or feel unwell during or after donation
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" id="gym6" />
+              <label class="form-check-label" for="gym6">
+                For religious reasons
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" id="gym6" />
+              <label class="form-check-label" for="gym6">
+                I would rather not say
+              </label>
+            </div>
+            <div class="row">
+              <div class="col-lg-3 ">
+                <input type="text" class="form-control" placeholder="Other">
+              </div>
+          </form>
+          <form class="px-1" action="">
+            <p class="query">TO THE BEST OF YOUR KNOWLEDGE, HOW MANY OF US WILL NEED BLOOD TRANSFUSION IN OUR LIFETIME?</p>
+
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Often" id="often1" />
+              <label class="form-check-label" for="often1">
+              3%
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Often" id="often2" />
+              <label class="form-check-label" for="often2">
+                7%
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Often" id="often3" />
+              <label class="form-check-label" for="often3">
+               15%
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Often" id="often3" />
+              <label class="form-check-label" for="often3">
+              25%
+              </label>
+            </div>
+          </form>
+          <form class="px-1" action="">
+            <p class="query">TO THE BEST OF YOUR KNOWLEDGE, WHICH OF THE FOLLOWING STATEMENT IS TRUE?</p>
+
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Often" id="often1" />
+              <label class="form-check-label" for="often1">
+                You can still give blood if you have a heart condition
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Often" id="often2" />
+              <label class="form-check-label" for="often2">
+                You can give blood if you have a tattoo, but it was done over six months ago
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Often" id="often3" />
+              <label class="form-check-label" for="often3">
+                High amounts of iron mean that you shouldn’t give blood
+              </label>
+            </div>
+          </form>
+          <form class="px-1" action="">
+            <p class="query">WHICH OF THE FOLLOWING STATEMENTS DO YOU THINK IS FALSE?</p>
+
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" id="supplement1" />
+              <label class="form-check-label" for="supplement1">
+                You can’t give blood if you are diabetic
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" id="supplement2" />
+              <label class="form-check-label" for="supplement2">
+                You can’t give blood if you are on antibiotics
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" id="supplement3" />
+              <label class="form-check-label" for="supplement3">
+                You can’t give blood if you’ve been to the dentist in the last seven days
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" id="supplement4" />
+              <label class="form-check-label" for="supplement4">
+                You can’t give blood if you feel unwell at the time of donation
+              </label>
+            </div>
+          </form>
+          
+          <form class="px-1" action="">
+            <p class="query">"BLOOD CAN BE USED TO TREAT BURNS." DO YOU THINK THIS STATEMENTIS TRUE OR FALSE?</p>
+
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Type" id="type1" />
+              <label class="form-check-label" for="type1">
+              YES
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Type" id="type2" />
+              <label class="form-check-label" for="type2">
+              NO
+              </label>
+            </div>
+          </form>
+          <form class="px-1" action="">
+            <p class="query">DID YOU KNOW ABOUT WORLD BLOOD DONOR DAY BEFORE TAKING PART IN THIS SURVEY?</p>
+            
+
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Type" id="type1" />
+              <label class="form-check-label" for="type1">
+              YES
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Type" id="type2" />
+              <label class="form-check-label" for="type2">
+              NO
+              </label>
+            </div>
+          </form>
+          
+          
+          </div>
+        </div>
+        </div>
+
+
+
+        
+      </div>
+    </div>
+   
+  </div>    
+   
+<div class="container mt-3">
+  
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+   SUBMIT
+  </button>
+</div>
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">THANK YOU!</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        YOUR DATA HAS BEEN RECORDED.  
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+  <script src="Bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
